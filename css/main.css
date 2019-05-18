@@ -34,9 +34,16 @@ div#submit{
     bottom: 0;
 }
 button{
+    position: relative;
     border: none;
     outline: none;
     padding: 0 auto;
+    background: none;
+    top: 0;
+    transition: all ease 0.3s;
+}
+button:active{
+    top: 5px;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait){
