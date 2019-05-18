@@ -5,9 +5,12 @@
   "start_url": "https://biemsday.github.io/whereWeGo/",
   "display": "fullscreen",
   "orientation": "portrait",
+  "theme_color": "#FFFFFF",
   "icons": [
     {
       "src": "https://www.materialui.co/materialIcons/image/remove_red_eye_black_192x192.png"
     }
-  ]
+  ],
+  "background_color": "#FFFFFF",
+  "prefer_related_applications": true
 }
