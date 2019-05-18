@@ -1,0 +1,13 @@
+{
+  "name": "Where we go?",
+  "short_name": "WWG?",
+  "lang": "en-US",
+  "start_url": "https://biemsday.github.io/whereWeGo/",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://www.materialui.co/materialIcons/image/remove_red_eye_black_192x192.png"
+    }
+  ]
+}

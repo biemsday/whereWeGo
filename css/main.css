@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900&display=swap&subset=cyrillic,latin-ext');
+html, body{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+}
+p, div#place, button{
+    font-size: 60pt;
+    font-family: 'Playfair Display', serif;
+    font-kerning: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+div{
+    float: left;
+    line-height: 20vh;
+    width: 100%;
+    margin-right: 10px;
+    text-align: center;
+}
+div#title>p{
+    font-size: 100pt;
+    line-height: 10vh;
+}
+div#place{
+    line-height: 50vh;
+}
+div#submit{
+    border: none;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 0 auto;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait){
+    html, body{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 auto;
+        text-align: center;
+    }
+    p, div#place, button{
+        font-size: 60pt;
+        font-family: 'Playfair Display', serif;
+        font-kerning: none;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    div{
+        float: left;
+        line-height: 20vh;
+        width: 100%;
+        margin-right: 10px;
+        text-align: center;
+    }
+    div#title>p{
+        font-size: 150pt;
+        line-height: 10vh;
+    }
+    div#place{
+        line-height: 50vh;
+    }
+    div#submit{
+        border: none;
+        padding: 0;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+    }
+    button{
+        border: none;
+        outline: none;
+        padding: 0 auto;
+    }
+}
