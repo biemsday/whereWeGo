@@ -35,10 +35,12 @@ div#submit{
 }
 button{
     position: relative;
-    border: none;
+    border: 1px solid rgb(31, 30, 29);
+    border-radius: 5px;
     outline: none;
-    padding: 0 auto;
-    background: none;
+    background: rgb(31, 30, 29) linear-gradient(rgb(13, 12, 11), rgba(0, 0, 0, 0.99));
+    padding: 0 40px 0 40px;
+    color: white;
     top: 0;
     transition: all ease 0.3s;
 }
@@ -68,8 +70,12 @@ button:active{
         text-align: center;
     }
     div#title>p{
-        font-size: 50pt;
+        font-size: 65pt;
         line-height: 10vh;
+        padding: 0 20px 0 20px;
+        text-align: justify-all;
+        left: 0;
+        top: 0;
     }
     div#place{
         font-size: 30pt;
@@ -84,10 +90,12 @@ button:active{
     }
     button{
         position: relative;
-        border: none;
+        border: 1px solid rgb(31, 30, 29);
+        border-radius: 5px;
         outline: none;
-        padding: 0 auto;
-        background: none;
+        background: rgb(31, 30, 29) linear-gradient(rgb(13, 12, 11), rgba(0, 0, 0, 0.99));
+        padding: 0 40px 0 40px;
+        color: white;
         top: 0;
         transition: all ease 0.3s;
     }
