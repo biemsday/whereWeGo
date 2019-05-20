@@ -2,7 +2,7 @@
   "name": "Where to go?",
   "short_name": "Where to go?",
   "lang": "en-US",
-  "start_url": "https://biemsday.github.io/whereWeGo/",
+  "start_url": "/",
   "display": "fullscreen",
   "orientation": "portrait",
   "theme_color": "#f5f5f5",

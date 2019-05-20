@@ -41,7 +41,7 @@ div#submit{
 }
 button{
     position: relative;
-    border: 1px solid rgb(31, 30, 29);
+    border: none;
     border-radius: 5px;
     outline: none;
     background: rgb(31, 30, 29) linear-gradient(rgb(13, 12, 11), rgba(0, 0, 0, 0.99));
@@ -52,6 +52,10 @@ button{
 }
 button:active{
     top: 5px;
+}
+button:focus {
+    outline: none;
+    border: none;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait){
@@ -103,7 +107,7 @@ button:active{
     }
     button{
         position: relative;
-        border: 1px solid rgb(31, 30, 29);
+        border: none;
         border-radius: 5px;
         outline: none;
         background: rgb(31, 30, 29) linear-gradient(rgb(13, 12, 11), rgba(0, 0, 0, 0.99));
@@ -115,5 +119,9 @@ button:active{
     button:active{
         top: 5px;
         transition: all ease 0.3s;
+    }
+    button:focus {
+        outline: none;
+        border: none;
     }
 }
