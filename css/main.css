@@ -119,11 +119,9 @@ button:focus {
     button:active{
         top: 5px;
         transition: all ease 0.3s;
-        background: none;
     }
     button:focus {
         outline: none;
         border: none;
-        background: none;
     }
 }
