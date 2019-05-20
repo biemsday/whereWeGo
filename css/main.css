@@ -8,6 +8,7 @@ html, body{
     -webkit-user-select: none;
     -ms-user-select: none;
     -o-user-select: none;
+    -webkit-tap-highlight-color: transparent;
     user-select: none;
     background: #FFFFFF;
 }
@@ -68,6 +69,7 @@ button:focus {
         -webkit-user-select: none;
         -ms-user-select: none;
         -o-user-select: none;
+        -webkit-tap-highlight-color: transparent;
         user-select: none;
         background: #FFFFFF;
     }
