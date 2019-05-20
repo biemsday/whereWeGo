@@ -4,6 +4,12 @@ html, body{
     margin: 0 auto;
     padding: 0 auto;
     text-align: center;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    background: #f5f5f5;
 }
 p, div#place, button{
     font-size: 60pt;
@@ -40,7 +46,7 @@ button{
     outline: none;
     background: rgb(31, 30, 29) linear-gradient(rgb(13, 12, 11), rgba(0, 0, 0, 0.99));
     padding: 0 40px 0 40px;
-    color: white;
+    color: #f5f5f5;
     top: 0;
     transition: all ease 0.3s;
 }
@@ -54,6 +60,12 @@ button:active{
         margin: 0 auto;
         padding: 0 auto;
         text-align: center;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+        background: #f5f5f5;
     }
     p, div#place, button{
         font-size: 60pt;
@@ -96,7 +108,7 @@ button:active{
         outline: none;
         background: rgb(31, 30, 29) linear-gradient(rgb(13, 12, 11), rgba(0, 0, 0, 0.99));
         padding: 0 40px 0 40px;
-        color: white;
+        color: #F5F5F5;
         top: 0;
         transition: all ease 0.3s;
     }
