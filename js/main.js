@@ -1,5 +1,5 @@
 roll.onclick = function () {
-    const spots = ["Искандер", "Фо бо", "Бургеры", "Грузия"];
+    const spots = ["Искандер", "Фо бо", "Мак", "Грузия", "Три правила", "Теремок", "Вкусвилл", "Обед буфет", "Meat&Fish", "Фрайдейс", "Додо", "Прайм", "Сандерс", "Переход"];
     const randomize = Math.floor(Math.random() * spots.length);
     const result = spots[randomize];
     place.innerText = result;

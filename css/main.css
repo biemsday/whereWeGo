@@ -87,6 +87,7 @@ button:active{
         position: fixed;
         left: 0;
         bottom: 0;
+        transition: all ease 0.3s;
     }
     button{
         position: relative;
@@ -101,5 +102,6 @@ button:active{
     }
     button:active{
         top: 5px;
+        transition: all ease 0.3s;
     }
 }
