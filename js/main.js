@@ -4,3 +4,9 @@ roll.onclick = function () {
     const result = spots[randomize];
     place.innerText = result;
 };
+document.addEventListener('touchmove', function(event) {
+    event = event.originalEvent || event;
+    if(event.scale > 1) {
+        event.preventDefault();
+    }
+}, false);
